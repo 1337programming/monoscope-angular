@@ -7,10 +7,10 @@ angularInjector.inject = function (data) {
   var inject = this;
 
   inject.srcPath = {
-    'model': '../public/templates/angular/module/module-config.js',
-    'service': '../public/templates/angular/module/services/service.js',
-    'directive': '../public/templates/angular/module/directives/directive.js',
-    'controller': '../public/templates/angular/module/controllers/controller.js'
+    'model': 'templates/module/module-config.js',
+    'service': 'templates/module/services/service.js',
+    'directive': 'templates/module/directives/directive.js',
+    'controller': '/templates/module/controllers/controller.js'
   };
 
   inject.data = data;
