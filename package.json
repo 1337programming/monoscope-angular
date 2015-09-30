@@ -1,0 +1,10 @@
+{
+  "name": "monoscope-angular",
+  "version": "1.0.0",
+  "description": "angular plugin for monoscope",
+  "author": "Patrick Opie",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.1" 
+  }
+}
