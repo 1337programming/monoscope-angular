@@ -1,13 +1,13 @@
 'use strict';
 
-angular.module('App.moduleName')
+angular.module('<%= appName %>.<%= moduleName %>')
   .config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider
-      .state('moduleState', {
-        url: '/moduleUrl',
-        templateUrl: 'moduleUrl',
-        controller: 'moduleCtr'
+      .state('<%= state %>', {
+        url: '/<%= url %>',
+        templateUrl: '<%= url %>',
+        controller: '<%= ctrlName %>'
       });
 
     $urlRouterProvider.otherwise('/');
