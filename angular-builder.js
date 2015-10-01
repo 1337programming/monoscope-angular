@@ -1,9 +1,9 @@
-var angularInjector = module.exports = {};
+var angularBuilder = module.exports = {};
 var fs = require('fs');
 var EJS = require('ejs');
 var readline = require('readline');
 
-angularInjector.inject = function (data) {
+angularBuilder.run = function (data) {
 
   var esjData = {
     'appName': data.appName,
@@ -18,7 +18,7 @@ angularInjector.inject = function (data) {
     'url': data.url
   };
 
-  this.run = function () {
+  function build () {
     var controller = new EJS({url: 'templates/module/module-controller.js'}).render(esjData);
     var directive = new EJS({url: 'templates/module/module-directive.js'}).render(esjData);
     var service = new EJS({url: 'templates/module/module-service.js'}).render(esjData);
@@ -30,7 +30,9 @@ angularInjector.inject = function (data) {
       'service': service,
       'config': config,
       'view': view
-    }
+    };
   }
+
+  return build();
 
 };
