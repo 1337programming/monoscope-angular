@@ -2,12 +2,14 @@
   "name": "monoscope-angular",
   "version": "1.0.0",
   "description": "angular plugin for monoscope",
+  "main": "monoscope-angular.js",
   "author": "Patrick Opie",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.4.1"
-  },
-  "devDependencies": {
-    "ejs": "^2.3.4"
+    "angular": "^1.4.1",
+    "ejs": "^2.3.4",
+    "fs-extra": "^0.26.0",
+    "monoscope": "^0.2.2",
+    "underscore.string": "^3.2.2"
   }
 }
