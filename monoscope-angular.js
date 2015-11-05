@@ -28,5 +28,3 @@ monoscopeAngular.run = function(config) {
   };
   monoscope.run(monoscopeAngular.getShortcuts(config), options);
 };
-
-monoscopeAngular.run();
