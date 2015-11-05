@@ -4,7 +4,7 @@
 ![alt tag](https://raw.githubusercontent.com/1337programming/monoscope/master/logo-banner.png)
 
 ## Installation
-Run the command `npm i monoscope-angular --save` to install.
+Run the command `npm i monoscope-angular --save-dev` to install. Note: This is a development tool, not a production tool.
 
 For an initial project setup with this plugin, please see [monoscope-angular-starter](https://github.com/1337programming/monoscope-angular-starter "Monoscope Angular Starter").
 ## Usage
