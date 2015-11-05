@@ -1,15 +1,16 @@
 {
   "name": "monoscope-angular",
   "version": "1.0.0",
-  "description": "angular plugin for monoscope",
+  "description": "Angular Shortcuts in Monoscope",
   "main": "monoscope-angular.js",
-  "author": "Patrick Opie",
+  "author": "Patrick Opie and Tom Manion",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.4.1",
+    "copy-paste": "git+https://github.com/xavi-/node-copy-paste.git",
     "ejs": "^2.3.4",
     "fs-extra": "^0.26.0",
-    "monoscope": "^0.2.2",
+    "monoscope": "^0.2.5",
     "underscore.string": "^3.2.2"
   }
 }
