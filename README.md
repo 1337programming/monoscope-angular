@@ -9,11 +9,15 @@ Run the command `npm i monoscope-angular --save-dev` to install. Note: This is a
 For an initial project setup with this plugin, please see [monoscope-angular-starter](https://github.com/1337programming/monoscope-angular-starter "Monoscope Angular Starter").
 ## Usage
 Simply add the following code to a task within your application:
-
 ```javascript
 var monoscopeAngular = require('monoscope-angular');
 monoscopeAngular.run(config);
 ```
+To get the list of shortcuts provided by this plugin, use the following:
+```javascript
+var shortcuts = monoscopeAngular.getShortcuts(config);
+```
+These shortcuts can then be added to to create application-specific shortcuts.
 ## Configuration
 The config object can include the following properties:
  - title (Default 'Monoscope AngularJS')
